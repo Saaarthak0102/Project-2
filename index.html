@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>Cars Image Slider</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <link rel = "stylesheet" href = "styles.css"> 
+
+</head>
+<body>
+    <header>
+        <h1>Cars Image Slider</h1>
+      </header>
+  <!-- Main Slider -->
+  <div class="swiper-container main-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(gt3rs.jpg)">
+          <img src="gt3rs" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title">Porsche GT3 RS</p>
+          <span class="caption">Track beast, born to race.</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(m4coupe.jpg)">
+          <img src="m4coupe.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title">BMW M4 Coupe</p>
+          <span class="caption">Precision meets performance..</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(s580.jpg)">
+          <img src="s580.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title">Mercedes Maybach</p>
+          <span class="caption">Luxury that whispers power.</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(mustang.jpg)">
+          <img src="mustang.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title">Ford Mustang</p>
+          <span class="caption"> Pure American muscle.</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(phantom.jpg)">
+          <img src="phantom.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title">Rolls Royce Phantom</p>
+          <span class="caption">Elegance on wheels.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+
+  <!-- Thumbnail Slider -->
+  <div class="swiper-container nav-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(gt3rs.jpg)">
+          <img src="gt3rs.jpg" class="entity-img" />
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(m4coupe.jpg)">
+          <img src="m4coupe.jpg" class="entity-img" />
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(s580.jpg)">
+          <img src="s580.jpg" class="entity-img" />
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(mustang.jpg)">
+          <img src="mustang.jpg" class="entity-img" />
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url(phantom.jpg)">
+          <img src="phantom.jpg" class="entity-img" />
+        </figure>
+      </div>
+    </div>
+
+    <div class="about-section">
+        <img src="About-me.jpg"/>
+        <div class="about-text">
+          <h2>Project submitted by:</h2>
+          <p>Hello! I'm Sarthak Sabharwal. A fresher at JIIT Noida, currently pursuing B.Tech ECE. </p>
+        </div>
+      </div>
+
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
